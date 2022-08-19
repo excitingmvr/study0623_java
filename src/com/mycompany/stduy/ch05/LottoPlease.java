@@ -10,6 +10,7 @@ public class LottoPlease {
 		// 현재까지 나온 번호롸 중복이 되지 않아야 함
 		// https://dhlottery.co.kr/gameResult.do?method=byWin&wiselog=H_C_1_1
 		// 여기에서 현재까지 번호 다운 가능
+		// 중복 숫자 제거  
 		// 3연속 번호 불가
 		// 보너스 번호는 제외
 		
@@ -1061,7 +1062,6 @@ public class LottoPlease {
 			for (int i=0; i<6; i++) {
 				random = (int) ((Math.random() * (max - min)) + min);
 				randomArray[i] = random;
-				randomString += random + "/";
 			}
 			
 	//		System.out.println(randomString);
@@ -1088,7 +1088,6 @@ public class LottoPlease {
 			 aa:
 			 for(int i=0; i<6; i++) {
 				 for(int j=0; j<6; j++) {
-					 
 					 if(i != j) {
 						 if(randomArray[i] == randomArray[j]) {
 							 isSameNumber = true;
