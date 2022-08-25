@@ -20,6 +20,8 @@ public class CarExample {
 		System.out.println("car.name: " + car.name);
 		System.out.println("car.name2[1]: " + car.name2[1]);
 		
+		
+		Arithmetic.staticTest();
 	}
 
 }

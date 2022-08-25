@@ -8,7 +8,7 @@ public class ArithmeticExample {
 		
 		int a;
 		
-		int a = 1;
+//		int a = 1;
 		
 		int resultAdd = arithmetic.add(1,2);
 		int resultMinus = arithmetic.minus(1,2);
@@ -22,6 +22,9 @@ public class ArithmeticExample {
 		arithmetic.say(resultDivid);
 		arithmetic.say(resultremind);
 		
+
+		
 	}
+	
 
 }

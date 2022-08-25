@@ -52,6 +52,12 @@ public class Arithmetic {
 	public void ddd (int a) {
 		
 	}
+	
+	static void staticTest() {
+		System.out.println("나는 토니당...");
+	}
+	
+	
 
 	
 }
