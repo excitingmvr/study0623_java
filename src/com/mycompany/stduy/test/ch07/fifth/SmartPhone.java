@@ -2,8 +2,9 @@ package com.mycompany.stduy.test.ch07.fifth;
 
 public class SmartPhone extends Phone{
 	//생성자
+
 	public SmartPhone(String owner) {
-		super(owner);
+		super();
 	}
 
 	//메소드

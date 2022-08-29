@@ -3,10 +3,10 @@ package com.mycompany.stduy.test.ch07.sixth;
 public class AnimalExample {
 
 	public static void main(String[] args) {
-		Dog dog = new Dog();
 		Cat cat = new Cat();
-		dog.sound();
+		Dog dog = new Dog();
 		cat.sound();
+		dog.sound();
 		System.out.println("-----");
 		
 	}

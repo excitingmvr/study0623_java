@@ -1,12 +1,17 @@
 package com.mycompany.stduy.test.ch07.fifth;
 
 public abstract class Phone {
+
 	//필드
 	public String owner;
 	
 	//생성자
 	public Phone(String owner) {
 		this.owner = owner;
+	}
+	
+	Phone() {
+		
 	}
 	
 	//메소드
