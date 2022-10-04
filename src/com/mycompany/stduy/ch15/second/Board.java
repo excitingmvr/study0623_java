@@ -6,7 +6,7 @@ public class Board {
 	private String content;
 	private String writer;
 	
-	
+	// 생성자
 	public Board (String subject, String content, String writer) {
 		this.subject = subject;
 		this.content = content;

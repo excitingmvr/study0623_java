@@ -6,6 +6,7 @@ import java.util.List;
 public class ArrayListExample {
 
 	public static void main(String[] args) {
+		
 		List<String> list = new ArrayList<String>();
 		
 		list.add("Java");
@@ -37,6 +38,7 @@ public class ArrayListExample {
 			String str = list.get(i);
 			System.out.println(i + ":" + str);
 		}
+		
 	}
 
 }
